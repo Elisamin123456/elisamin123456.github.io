@@ -1,9 +1,50 @@
-#top-bar {
-	width: 100%;
-	height: 100px;
-	background-color: rgba(255, 255, 255, 0.7);
-	display: flex;
+@font-face {
+    font-family: 'AbjadDemo';
+    src: url('/fonts/ABJAD DEMO.otf') format('opentype');
 }
+
+@font-face {
+    font-family: 'DFKoin';
+    src: url('/fonts/DFKoin4_1.ttc') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+#top-bar {
+    width: 100%;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    flex-direction: column;  /* 让标题和副标题垂直排列 */
+    justify-content: center; /* 在垂直方向居中 */
+    align-items: center; /* 在水平方向居中 */
+    text-align: center;
+}
+
+#top-bar-title {
+    font-size: 5em !important; /* 放大字体 */
+    font-family: 'AbjadDemo', sans-serif;
+    font-weight: normal; /* 移除粗体 */
+    text-align: center;
+    /* 确保它占满父容器 */
+    display: flex;
+    justify-content: center; /* 确保文字水平居中 */
+}
+
+#top-bar-slogan {
+    font-size: 1.5em !important;
+    font-family: 'KaiTi', sans-serif !important;
+    font-style: normal !important;
+    text-align: center;
+    margin-top: -15px;
+}
+
+
+
+
+
 
 #avatar-box {
 	flex: 3;

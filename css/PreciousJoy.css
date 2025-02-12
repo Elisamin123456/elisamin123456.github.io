@@ -1,8 +1,18 @@
+@font-face {
+  font-family: 'CourierPrime';
+  src: url('/fonts/CourierPrime-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+
+
 
 body {
   margin: 0;
   height: 100vh;
-  font-family: Arial, Roboto, "Droid Sans", "Hiragino Sans GB", "Microsoft YaHei", "Simsun", STXihei, "sans-serif";
+  font-family: 'CourierPrime', Arial, Roboto, "HuaKangJinWenTi", "Hiragino Sans GB", "Microsoft YaHei", "Simsun", STXihei, "sans-serif";
   cursor:url('/images/normal1.png'), default;
 }
 
@@ -14,7 +24,7 @@ a:hover{cursor:url('/images/link1.png'), pointer;}
 button:hover{cursor:url('/images/link1.png'), pointer;}
 
 #wrapper {
-  background-image: url('../images/touhou_yuyuko.jpg');
+  background-image: url('../images/touhou_cirno.jpg');
   background-color: #C7C9EA;
   background-repeat: no-repeat;
   background-attachment: fixed;
